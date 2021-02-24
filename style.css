@@ -52,3 +52,7 @@ h4 {
 a {
   color: white;
 }
+
+.ui.link.list .item, .ui.link.list .item a:not(.ui), .ui.link.list a.item {
+  color: rgb(125 125 125);
+}
