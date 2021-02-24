@@ -1,0 +1,54 @@
+@font-face {
+  font-family: test;
+  src: url("https://myrocksoul.com/font/BNKGOTHM.TTF");
+}
+
+.ui.inverted.segment {
+  background-color: black;
+}
+
+.ui.inverted.secondary.pointing.menu {
+  box-shadow: none;
+  border: none;
+  font-family: test, serif;
+  font-weight: bold;
+}
+
+.ui.secondary.pointing.menu .item {
+  margin-right: 4em;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: test, serif;
+  font-weight: bold;
+}
+
+.ui.secondary.inverted.pointing.menu .active.item{
+  border-color: #d10000;
+  font-family: test, serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #d10000;
+  font-family: test, serif;
+  font-weight: bold;
+}
+
+h4 {
+  color: #d10000;
+  font-family: test, serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.ui.left.aligned.container {
+  padding-bottom: 20em;
+}
+
+a {
+  color: white;
+}
